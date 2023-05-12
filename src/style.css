@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+
+html{
+	scroll-behavior: smooth;
+
+}
+:root {
+	--nav-bg-color: #be3144;
+	--nav-font-color: #FFFFFF;
+}
+body {
+/*	display: flex;
+	flex: */
+	font-family: 'Righteous', 'sans-serif';
+}
+
+.nav {
+	background-color: var(--nav-bg-color);
+	
+	/*top: 0;*/
+
+}
+
+
+
+.main-section {
+	 height: 100vh;
+	 padding-top: 8vh;
+ }
+
+.nav-link {
+	color: var(--nav-font-color);
+	vertical-align: bottom;
+	padding: 1.5rem;
+}
+
+/*welcome section*/
+
+#welcome-section {
+	background-color: #3E494C;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#welcome-section h1{
+	color: white;
+	font-size: 6vw;
+}
+
+/* about section*/
+
+
+#about-section {
+	background-color: #CB6600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*flex-wrap: wrap;*/
+
+}
+
+#profile-img {
+	width: 70%;
+	min-width: 16em;
+	border-radius: 50%;
+	margin: 7vw;
+}
+#profile-contents {
+	width: 100%;
+	min-width: 14em;
+	margin: 5vw;
+}
+
+@media (max-width: 769px) {
+	#about-section {
+		flex-wrap: wrap;
+	}
+	#profile-img {
+		width: 50vh;
+	}
+}
+
+/*project section*/
+
+#project-section {
+	background-color: #0D8800;
+
+}
+
+#project-section-contents {
+	display: flex;
+
+
+}
+
+.project-section-card {
+	width: 40rem;
+;
+}
+
+.project-section-card img {
+
+}
+
+
+
+/*contact section*/
+#contact-section {
+	background-color: #127C9A;
+}
