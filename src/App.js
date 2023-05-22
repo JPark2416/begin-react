@@ -1,11 +1,10 @@
-import React from 'react';
-import UserList from './UserList';
+import React from "react";
+import Profile from "./Components/Profile";
 
 function App() {
-
   return (
     <div>
-      <UserList />
+      <Profile />
     </div>
   );
 }
