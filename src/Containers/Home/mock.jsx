@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 
 const Profile = () => {
   const detail = {
@@ -17,25 +17,25 @@ const Profile = () => {
       ],
     },
   };
-
+  const [data, setData] = useState(detail);
   // const numbers = [1, 2, 3, 4, 5];
   // const test1 = numbers.map((number) => <li>{number}</li>);
 
   return (
     <div>
-      <h1>{detail.name}</h1>
+      <h1>{data.name}</h1>
       <div className="companyModule">
-        <h2>{detail.career.company}</h2>
-        <p>{detail.career.period}</p>
-        <p>Roles and Responsibilities</p>
+        <h2>{data.career.company}</h2>
+        <p>{data.career.period}</p>
+        <p>Roles and Responsibilities✅</p>
         <ul>
-          {detail.career.roles.map((role) => (
+          {data.career.roles.map((role) => (
             <li>{role}</li>
           ))}
         </ul>
         <p>Key Achievements</p>
         <ul>
-          {detail.career.achievements.map((achievement) => (
+          {data.career.achievements.map((achievement) => (
             <li>{achievement}</li>
           ))}
         </ul>
