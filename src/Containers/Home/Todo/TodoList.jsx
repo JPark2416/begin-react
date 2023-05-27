@@ -1,9 +1,12 @@
 import React from "react";
 
-const TodoList = () => {
+const TodoList = (props) => {
   return (
     <div>
       <h1>Todo List</h1>
+      {props.todoList.map((todo) => (
+        <p>{todo}</p>
+      ))}
     </div>
   );
 };
