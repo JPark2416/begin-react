@@ -1,16 +1,9 @@
 import React from "react";
-import Login from "./Containers/Login/Login";
-import Profile from "./Containers/Home/mock";
-import Todo from "./Containers/Home/Todo/Todo";
+import AboutMeBoard from "./Components/AboutMeBoard/AboutMeBoard";
+// C:\Users\qkrwl\Documents\GitHub\begin-react\src\Components\AboutMeBoard\AboutMeBoard.jsx
 
 function App() {
-  return (
-    <div>
-      <Login></Login>
-      <Profile></Profile>
-      <Todo></Todo>
-    </div>
-  );
+  return <div>{<AboutMeBoard></AboutMeBoard>}</div>;
 }
 
 export default App;
