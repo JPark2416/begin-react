@@ -1,0 +1,19 @@
+.About {
+  // border-color: pink;
+  border: 3px solid pink;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: orange;
+}
+
+.profileImage {
+  // border-radius: 50%;
+  // max-width: 30%;
+  //  height: ;
+  width: 30%;
+  height: 300px;
+  border-radius: 50%;
+}
