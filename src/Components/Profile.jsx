@@ -7,12 +7,6 @@ import { cv } from "../Model/cv";
 const Profile = () => {
   const [CVdata, setCVdata] = useState(cv);
 
-  // useEffect(() => {
-  //   console.log(CVdata);
-  // });
-
-  // const getCareer = (param) => param.map((p) => <p>{p}</p>);
-
   return (
     <div className="Profile">
       <h1>Profile Board</h1>
@@ -40,7 +34,7 @@ const Profile = () => {
         </div>
       ))}
 
-      <Tab.Group>
+      {/* <Tab.Group>
         <Tab.List>
           <Tab>Tab 1</Tab>
           <Tab>Tab 2</Tab>
@@ -51,7 +45,7 @@ const Profile = () => {
           <Tab.Panel>Content 2</Tab.Panel>
           <Tab.Panel>Content 3</Tab.Panel>
         </Tab.Panels>
-      </Tab.Group>
+      </Tab.Group> */}
     </div>
   );
 };
