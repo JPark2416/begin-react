@@ -1,11 +1,10 @@
 .flex-container {
   display: flex;
   justify-content: space-evenly;
-  background-color: orange;
+  // background-color: orange;
 }
 
 .profileImage {
   width: 30%;
-  height: 300px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
