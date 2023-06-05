@@ -1,14 +1,1 @@
 // @import "tailwind.css";
-
-.home {
-  border: 0.5rem solid rgb(40, 42, 105);
-  display: grid;
-  background-color: aqua;
-  grid-template-columns: 1fr 1fr;
-
-  // grid-template-columns: 1 2;
-  img {
-    width: 30%;
-    border-radius: 0.5em;
-  }
-}
