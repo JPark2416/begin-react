@@ -4,9 +4,9 @@ import "../Style/Home.scss";
 const Home = () => {
   return (
     <div>
-      <div className="home grid grid-cols-2">
+      <div className="">
         <img src="images/JP.jpg" alt="profile" />
-        <h1>Jinyoung Park</h1>
+        <h className="">Jinyoung Park</h>
       </div>
     </div>
   );

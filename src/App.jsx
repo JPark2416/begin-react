@@ -10,8 +10,9 @@ import Header from "./Module/Header";
 function App() {
   return (
     <div className="">
-      <Header></Header>
-      <Home></Home>
+      <h1 className="text-3xl font-bold">Hello World!</h1>
+      {/* <Header></Header>
+      <Home></Home> */}
     </div>
   );
 }
