@@ -9,9 +9,9 @@ import Header from "./Module/Header";
 
 function App() {
   return (
-    <div className="bg-red-200 ">
-      <h1 className="text-3xl font-mono">Hello World!</h1>
-      <Header className=""></Header>
+    <div className="bg-red-200 font-mono">
+      <p>Hello World!</p>
+      <Header></Header>
       <Home></Home>
     </div>
   );

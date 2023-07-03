@@ -31,25 +31,38 @@ export const cv = {
         {
           title:
             "Guidewire enhancement (PolicyCenter, ClaimCenter, BillingCenter)",
-          detail: "",
-          challenges: "",
+          detail:
+            "Developing GW UI configuration and design new data model. Enhancing ClaimCenter Rules and EventFire. Update pricing and rating engine and Resolve Defects.",
+          challenges: [""],
           methodology: "Agile/Scrum",
         },
       ],
     },
     {
-      company: "",
-      period: "",
-      roles: [],
-      achievements: [],
-      projects: [
-        {
-          title: "",
-          detail: "",
-          challenges: "",
-          methodology: "",
-        },
+      company: "FMG Insurance",
+      period: "NOV 2019 ~ SEP 2020",
+      roles: [
+        "Develop software to meet business requirements in timeframe",
+        "Study and learn Guidewire system and FMG's custom-build codes.",
+        "Asist with providing technical support for existing software.",
+        "Investigate and find solutions for defects",
       ],
+      //       Develop software to meet business requirements in timeframe
+      // ● Study and learn Guidewire system and FMG’s custom-build codes
+      // ● Assist with providing technical support for existing software
+      // ● Investigate and find solutions for defects
+    },
+    {
+      company: "GreenBeans Australia Pty",
+      period: "DEC 2018 - FEB 2019",
+      roles: [
+        "Developed E-Commerce web application with Magento framework",
+        "Improve existing UI with modern front-end frameworks", //JavaScript, CSS, HTML5, PHP
+        "Develop customer service email templates",
+      ],
+      //       Developed E-Commerce web application with Magento framework
+      // ● Improve existing UI with modern front-end frameworks; JavaScript, CSS, HTML5
+      // ● Developed new customer service email templates
     },
   ],
 };
