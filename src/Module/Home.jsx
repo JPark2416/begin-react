@@ -1,13 +1,10 @@
 import React from "react";
-import "../Style/Home.scss";
 
 const Home = () => {
   return (
     <div>
-      <div className="grid grid-cols-2">
-        <img src="images/JP.jpg" alt="profile" className="rounded-2xl" />
-        <h className="">Jinyoung Park</h>
-      </div>
+      <h3>Home Page</h3>
+      <p>Tab page below</p>
     </div>
   );
 };
