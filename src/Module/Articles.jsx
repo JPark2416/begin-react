@@ -1,14 +1,15 @@
 import React from "react";
 import Article from "./Article";
+import "../Style/Articles.css";
 
-const myStyle = {
-  display: "flex",
-  flex_wrap: "wrap",
-};
+// const myStyle = {
+//   display: "flex",
+//   flex-wrap: "wrap",
+// };
 
 const Articles = () => {
   return (
-    <div style={myStyle}>
+    <div className="articles">
       <Article />
       <Article />
       <Article />

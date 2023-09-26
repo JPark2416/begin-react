@@ -3,7 +3,8 @@ import { Card } from "react-bootstrap";
 import { ListGroup } from "react-bootstrap";
 
 const myStyle = {
-  width: "30%",
+  width: "15rem",
+  margin: "5px",
 };
 
 const Article = () => {
