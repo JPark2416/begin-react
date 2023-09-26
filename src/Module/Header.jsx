@@ -1,13 +1,9 @@
 import React from "react";
-
+import Button from "react-bootstrap/Button";
 const Header = () => {
   return (
     <div className="Nav">
-      <nav>
-        <a href=""> Home |</a>
-        <a href=""> Posts |</a>
-        <a href=""> Github</a>
-      </nav>
+      <Button variant="primary">Primary</Button>
     </div>
   );
 };

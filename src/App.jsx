@@ -1,6 +1,8 @@
 import React from "react";
+// import Header from "./Module/Header";
+import NavEnhancement from "./Module/NavEnhancement";
 import Home from "./Module/Home";
-import Header from "./Module/Header";
+import "./App.css";
 // import About from "./Components/About";
 // import Profile from "./Components/Profile";
 // import "./App.scss";
@@ -9,10 +11,9 @@ import Header from "./Module/Header";
 
 function App() {
   return (
-    <div className="bg-red-200 font-mono">
-      <p>Hello World!</p>
-      <Header></Header>
-      <Home></Home>
+    <div id="main">
+      <NavEnhancement />
+      <Home />
     </div>
   );
 }
