@@ -1,6 +1,6 @@
 import React from "react";
 import Article from "./Article";
-import "../Style/Articles.css";
+import "../Style/Articles.scss";
 
 // const myStyle = {
 //   display: "flex",

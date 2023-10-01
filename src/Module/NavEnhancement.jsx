@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 
 const NavEnhancement = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary nav">
       <Container>
         <Navbar.Brand href="#home">J Park</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
