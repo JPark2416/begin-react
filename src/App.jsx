@@ -1,19 +1,15 @@
 import React from "react";
-// import Header from "./Module/Header";
-import NavEnhancement from "./Module/NavEnhancement";
-import Home from "./Module/Home";
 import "./App.css";
-// import About from "./Components/About";
-// import Profile from "./Components/Profile";
-// import "./App.scss";
-
-// C:\Users\qkrwl\Documents\GitHub\begin-react\src\Components\AboutMeBoard\AboutMeBoard.jsx
+import Header from "./Components/Header";
+import Layout from "./Components/Layout";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div id="main">
-      <NavEnhancement />
-      <Home />
+      <Header />
+      <Layout />
+      <Footer />
     </div>
   );
 }
