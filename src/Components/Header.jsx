@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <nav style={style} className="Navigation">
       <img src={logo} alt="header" />
+      <p>JPark</p>
       <a href="/">About |</a>
       <a href="/">Projects |</a>
       <a href="/">Contact</a>
